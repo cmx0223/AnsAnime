@@ -11,11 +11,7 @@ from lxml import etree
 import fastapi
 
 
-
 def thread_it(func, *args):
     t = threading.Thread(target=func, args=args)
     t.setDaemon(True)
     t.start()
-
-
-

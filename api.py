@@ -1,7 +1,6 @@
 """
 /v1/search?str=Eva
 /v1/download?list={}
-
 """
 
 import threading
@@ -61,4 +60,4 @@ def thread_it(func, *args):
     t.start()
 
 
-print(search('eva')[5][0])
+# print(search('eva')[5][0])
